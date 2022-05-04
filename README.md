@@ -1,2 +1,2 @@
-# campaign-actionable-outcomes
-Campaign - Meetings and workshops with actionable outcomes
+# Lead Generation Campaign - Actionable Outcomes
+Landing page for our meetings and workshops with actionable outcomes ad campaign experiment.
