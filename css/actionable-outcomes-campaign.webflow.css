@@ -66,8 +66,18 @@ body {
 }
 
 .campaign-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 600px;
   margin: 20px;
   padding: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .form {
@@ -159,7 +169,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.paragraph-2 {
+.your-email-is-safe {
   padding-right: 50px;
   padding-left: 50px;
   font-family: 'Open Sans', sans-serif;
@@ -217,7 +227,7 @@ body {
   line-height: 40px;
 }
 
-.div-block {
+.success-image {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -232,13 +242,34 @@ body {
   padding: 10px;
 }
 
-.campaign-a-ctionable-block {
-  margin-right: 160px;
-  margin-left: 160px;
+.container-success {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.campaign-block-success {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 600px;
+  margin: 20px;
+  padding: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 991px) {
-  .paragraph-2 {
+  .your-email-is-safe {
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -267,7 +298,7 @@ body {
     margin-left: 10px;
   }
 
-  .div-block {
+  .success-image {
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -304,7 +335,7 @@ body {
     margin: 0px 10px;
   }
 
-  .paragraph-2 {
+  .your-email-is-safe {
     font-size: 14px;
     line-height: 18px;
   }
@@ -319,9 +350,13 @@ body {
     padding-left: 5px;
   }
 
-  .div-block-2 {
+  .success-button {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .campaign-block-success {
+    margin: 0px 5px;
   }
 }
 
