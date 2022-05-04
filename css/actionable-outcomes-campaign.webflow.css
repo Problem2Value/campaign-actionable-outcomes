@@ -62,7 +62,6 @@ body {
 }
 
 .campaign-image {
-  max-width: 60%;
   padding: 10px;
 }
 
@@ -229,6 +228,15 @@ body {
   justify-content: center;
 }
 
+.campaign-image-success {
+  padding: 10px;
+}
+
+.campaign-a-ctionable-block {
+  margin-right: 160px;
+  margin-left: 160px;
+}
+
 @media screen and (max-width: 991px) {
   .paragraph-2 {
     padding-right: 0px;
@@ -257,6 +265,11 @@ body {
   .container-detail {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .div-block {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
@@ -288,12 +301,27 @@ body {
   }
 
   .container-detail {
-    margin: 0px;
+    margin: 0px 10px;
   }
 
   .paragraph-2 {
     font-size: 14px;
     line-height: 18px;
+  }
+
+  .button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .campaign-image-success {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .div-block-2 {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
